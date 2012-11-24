@@ -69,6 +69,9 @@ The nibbles that I know about are:
   I've only seen this return 0 or 8.
 * 15: The tens digit of the humidity.
 
+The sample packet above is from a THGN132N on channel 1 with rolling code
+`EC`. It's returning a temperature of +27.3°C, and humidity 65%.
+
 I'm expecting the checksum to work like other Oregon Scientific devices,
 but haven't yet implemented it.
 
