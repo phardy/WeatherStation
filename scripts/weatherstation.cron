@@ -1,0 +1,8 @@
+# Poll for weather data every two minutes
+*/2 * * * *	/home/peter/weather/weatherpoll.py > /home/peter/weather/weatherpoll.out
+# Update graphs
+*/2 * * * *	/home/peter/weather/graph.sh > /dev/null 2>&1
+
+# Update sunrise and sunset times
+03 2 * * *	/home/peter/weather/suntimes.sh > /dev/null 2>&1
+

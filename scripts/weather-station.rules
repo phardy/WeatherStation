@@ -1,0 +1,2 @@
+# A FreeTronics Eleven arduino board that's running my weather stuff.
+KERNEL=="ttyACM*", ATTRS{serial}=="649363331373513171C1",SYMLINK+="weatherstation"
